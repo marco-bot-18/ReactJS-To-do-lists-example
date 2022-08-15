@@ -17,6 +17,3 @@ export default function TasksList({ allTasks, handleDelete }) {
   );
 }
 
-// const sample = (event) => {
-//   const { name, names } = event.target;
-// }
