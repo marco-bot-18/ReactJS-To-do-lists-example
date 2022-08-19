@@ -18,7 +18,7 @@ export default function NewTask({ newTask, handleChange, handleSubmit }) {
             value={newTask.description || ""}
             onChange={handleChange}
           />
-          <Button variant="info" type="submit">Add Task</Button>
+          <Button variant="secondary" type="submit">Adds Task</Button>
         </>
       )}
     </form>
