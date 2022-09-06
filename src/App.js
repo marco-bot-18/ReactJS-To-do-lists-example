@@ -1,10 +1,14 @@
-import {AppFunction} from './main-container/main';
-import React from 'react';
+import { AppFunction } from './main-container/main';
+import React, { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    document.title = "To-do List React-App";
+  }, [])
+
   return (
     <div className="App">
-      <AppFunction/>
+      <AppFunction />
     </div>
   );
 }

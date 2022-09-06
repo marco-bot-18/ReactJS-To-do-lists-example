@@ -1,5 +1,5 @@
 html, body {
-	margin: 10px;
+	margin: 5rem;
 	height: 100%;
   background-color: #ffffff;
   text-align: center;
@@ -47,8 +47,8 @@ ul {
 }
 
 li {
-  background-color: Cornsilk;
-  border: 1px solid rgb(236, 137, 8);
+  background-color: #7fcae6;
+  border: 1px solid #196480;
   border-radius: 5px 2px;
   margin: 8px 0;
 }
@@ -75,11 +75,16 @@ li div button:focus {
 }
 
 li h2 {
-  background-color: NavajoWhite;
+  color: ghostwhite;
+  background-color: #0c7da7;
   margin: 0;
   padding: 4px;
 }
 
 li p {
   margin: 8px;
+}
+
+.close_button {
+  color: ghostwhite;
 }

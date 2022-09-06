@@ -23,7 +23,7 @@ export function AppFunction() {
 
     return (
         <main>
-            <h1>Tasks</h1>
+            <h1>To-do Lists</h1>
             <NewTask
                 newTask={newTask}
                 handleChange={handleChange}

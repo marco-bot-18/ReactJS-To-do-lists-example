@@ -8,7 +8,7 @@ export default function TasksList({ allTasks, handleDelete }) {
         <li key={id}>
           <div>
             <h2>Title: {title}</h2>
-            <button onClick={() => handleDelete(id)}>X</button>
+            <button className="close_button" onClick={() => handleDelete(id)}>X</button>
           </div>
           Description: {!description ? null : <p>{description}</p>}
         </li>
